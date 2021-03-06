@@ -1,0 +1,54 @@
+print("")
+Vector1 = [10, 9, 8, 7, 6]
+Vector2 = [5, 4, 9, 3, 2]
+sum1 = []
+print("Given Vectors:", Vector1, ',', Vector2)
+for i in range(len(Vector1)):
+    p1 = Vector1[i] * Vector2[i]
+    sum1.append(p1)
+print("Vector 1 • Vector 2 = ", sum1)
+print("Sum of Vectors:", sum(sum1))
+print("")
+
+Vector3 = [1, 8, 3, 0, 9]
+Vector4 = [2, 3, 10, 3, 8]
+sum2 = []
+print("Given Vectors: ", Vector3, ',', Vector4)
+for i in range(len(Vector3)):
+    p2 = Vector3[i] * Vector4[i]
+    sum2.append(p2)
+print("Vector 3 • Vector 4 = ", sum2)
+print("Sum of Vectors:", sum(sum2))
+print("")
+
+Vector5 = [4, 8, 5, 1, 9]
+Vector6 = [8, 9, 5, 2, 1]
+sum3 = []
+print("Given Vectors:", Vector5, ',', Vector6)
+for i in range(len(Vector5)):
+    p3 = Vector5[i] * Vector6[i]
+    sum3.append(p3)
+print("Vector 5 • Vector 6 = ", sum3)
+print("Sum of Vectors:", sum(sum3))
+print("")
+
+Vector7 = [3, 2, 7, 3, 4]
+Vector8 = [8, 1, 4, 5, 3]
+sum4 = []
+print("Given Vectors:", Vector7, ',', Vector8)
+for i in range(len(Vector7)):
+    p4 = Vector7[i] * Vector8[i]
+    sum4.append(p4)
+print("Vector 7 • Vector 8 = ", sum4)
+print("Sum of Vectors:", sum(sum4))
+print("")
+
+Vector9 = [2, 4, 6, 8, 10]
+Vector10 = [8, 10, 6, 2, 4]
+sum5 = []
+print("Given Vectors:", Vector9, ',', Vector10)
+for i in range(len(Vector9)):
+    p5 = Vector9[i] * Vector10[i]
+    sum5.append(p5)
+print("Vector5 • Vector6 = ", sum5)
+print("Sum of Vectors:", sum(sum5))
